@@ -1,0 +1,282 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+header .nvb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+header .nvb .collapseDiv {
+  justify-content: space-between;
+  align-items: center;
+}
+header .nvb .collapseDiv .form {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 14px;
+}
+header .nvb .collapseDiv .form button {
+  padding: 10px;
+  border: none;
+  background-color: blue;
+  color: wheat;
+}
+header .nvb .collapseDiv .form button:hover {
+  color: #000;
+  font-weight: 800;
+  background-color: #fff;
+  transition: 0.5s;
+}
+header .nvb .collapseDiv .icon {
+  display: flex;
+  gap: 14px;
+  font-size: 20px;
+}
+
+main #newCollection {
+  position: relative;
+}
+main #newCollection .newCollectionImg img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+main #newCollection .newCollectionWord {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+main #newCollection .newCollectionWord h1 {
+  font-size: 50px;
+  color: #000;
+  font-weight: 500;
+}
+main #newCollection .newCollectionWord h2 {
+  color: #0000ff;
+  font-size: 40px;
+}
+main #newCollection .newCollectionWord button {
+  padding: 10px;
+  border: none;
+  background-color: blue;
+  color: wheat;
+}
+main #newCollection .newCollectionWord button:hover {
+  color: #000;
+  font-weight: 800;
+  background-color: #fff;
+  transition: 0.5s;
+}
+main #firstCard {
+  margin-top: 5%;
+}
+main #firstCard .cardBox {
+  position: relative;
+}
+main #firstCard .cardBox h2 {
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  left: 30%;
+  color: #fff;
+  font-weight: 800;
+}
+main #firstCard .cardBox img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  filter: brightness(66%);
+}
+main #globalSale {
+  margin-top: 5%;
+  position: relative;
+}
+main #globalSale .globalSaleImg img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+main #globalSale .globalSaleWord {
+  position: absolute;
+  top: 30%;
+  left: 60%;
+}
+main #globalSale .globalSaleWord h2 {
+  color: red;
+}
+main #globalSale .globalSaleWord h1 {
+  color: #000;
+  font-weight: 900;
+  font-size: 30px;
+}
+main #globalSale .globalSaleWord button {
+  padding: 10px;
+  border: none;
+  background-color: blue;
+  color: wheat;
+}
+main #globalSale .globalSaleWord button:hover {
+  color: #000;
+  font-weight: 800;
+  background-color: #fff;
+  transition: 0.5s;
+}
+main #popularProducts {
+  margin-top: 5%;
+  text-align: center;
+}
+main #shop {
+  margin-top: 5%;
+}
+main #form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  margin-top: 5%;
+  text-align: center;
+  background-color: #000;
+}
+footer p {
+  color: #fff;
+}
+footer p span {
+  color: blue;
+}
+
+.col-12 {
+  width: 400px;
+  display: flex;
+  margin: 2%;
+}
+.col-12 button {
+  width: 130px;
+  height: 50px;
+  background-color: #E7AB3C;
+  color: white;
+  border: none;
+}
+.col-12 button:hover {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+#product {
+  margin: 3%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  font-weight: 600;
+  color: rgb(157, 157, 157);
+  flex-wrap: wrap;
+}
+#product .boxs {
+  width: 100%;
+  flex-wrap: wrap;
+}
+#product .divz {
+  width: 100%;
+}
+#product .divz button {
+  width: 130px;
+  height: 50px;
+  background-color: #E7AB3C;
+  color: white;
+  border: none;
+}
+#product .divz button:hover {
+  background-color: black;
+  color: white;
+}
+#product .divz img {
+  width: 100%;
+  height: auto;
+}
+#product .divz .divc {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#load {
+  width: 130px;
+  height: 50px;
+  background-color: #E7AB3C;
+  color: white;
+  border: none;
+  margin: 3%;
+}
+#load:hover {
+  background-color: black;
+  color: white;
+}
+
+#productz {
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  height: auto;
+  font-weight: 600;
+  color: rgb(157, 157, 157);
+  flex-wrap: wrap;
+}
+#productz .divz {
+  width: 300px;
+}
+#productz .divz img {
+  width: 100%;
+}
+#productz .divz .divc {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#productz .divz button {
+  width: 130px;
+  height: 50px;
+  background-color: #E7AB3C;
+  color: white;
+  border: none;
+  margin: 3%;
+}
+#productz .divz button:hover {
+  background-color: black;
+  color: white;
+}
+
+#form1 {
+  margin-top: 3%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  gap: 10px;
+}

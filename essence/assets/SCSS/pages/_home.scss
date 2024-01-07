@@ -1,0 +1,306 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    .nvb{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        .collapseDiv{
+            
+            justify-content: space-between;
+            align-items: center;
+            .form{
+                display: flex;
+                justify-content: end;
+                align-items: center;
+                gap: 14px;
+                button{
+                    padding: 10px;
+                    border: none;
+                    background-color: blue;
+                    color: wheat;
+                }
+                button:hover{
+                    color: #000;
+                    font-weight: 800;
+                    background-color: #fff;
+                    transition: 0.5s;
+                }
+            }
+            
+            .icon{
+                display: flex;
+                gap: 14px;
+                font-size: 20px;
+            }
+        }
+    }   
+}
+main{
+    #newCollection{
+        position: relative;
+        .newCollectionImg{
+            img{
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 100%;
+            }
+        }
+        .newCollectionWord{
+            position: absolute;
+            top: 40%;
+            left: 10%;
+            h1{
+                font-size: 50px;
+                color: #000;
+                font-weight: 500;
+            }
+            h2{
+                color: #0000ff;
+                font-size: 40px;
+            }
+            button{
+                padding: 10px;
+                border: none;
+                background-color: blue;
+                color: wheat;
+            }
+            button:hover{
+                color: #000;
+                font-weight: 800;
+                background-color: #fff;
+                transition: 0.5s;
+            }
+        }
+    }
+    #firstCard{
+        margin-top: 5%;
+        .cardBox{
+            position: relative;
+            h2{
+                position: absolute ;
+                text-align: center;
+                top: 40%;
+                left: 30%;
+                color: #fff;
+                font-weight: 800;
+            }
+            img{
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 100%;
+                filter: brightness(66%);
+            }
+        }
+    }
+    #globalSale{
+        margin-top: 5%;
+        position: relative;
+        .globalSaleImg{
+            img{
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 100%;
+
+            }
+        }
+        .globalSaleWord{
+            position: absolute;
+            top: 30%;
+            left: 60%;
+            h2{
+                color: red;
+            }
+            h1{
+                color: #000;
+                font-weight: 900;
+                font-size: 30px;
+            }
+            button{
+                padding: 10px;
+                border: none;
+                background-color: blue;
+                color: wheat;
+            }
+            button:hover{
+                color: #000;
+                font-weight: 800;
+                background-color: #fff;
+                transition: 0.5s;
+            }
+        }
+    }
+    #popularProducts{
+        margin-top: 5%;
+        text-align: center;
+    }
+    #shop{
+        margin-top: 5%;
+        
+    }
+    #form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    margin-top: 5%;
+    text-align: center;
+    background-color: #000;
+    p{
+        color: #fff;
+        span{
+    color: blue
+        }
+    }
+}
+
+
+.col-12{
+    width: 400px;
+    display: flex;
+    margin: 2%;
+    
+    button{
+      width: 130px;
+      height: 50px;
+      background-color: #E7AB3C;
+      color: white;
+      border: none;
+      &:hover {
+        background-color: black;
+        color: white;
+        border: none;
+      }
+    }
+  }
+  
+  
+  #product{
+      margin: 3%;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 100%;
+      font-weight: 600;
+      color: rgb(157, 157, 157);
+      flex-wrap: wrap;
+      .boxs {
+        width: 100%;
+        flex-wrap: wrap;
+      }
+      .divz {
+        width: 100%;
+    
+        button {
+          width: 130px;
+          height: 50px;
+          background-color: #E7AB3C;
+          color: white;
+          border: none;
+          &:hover {
+            background-color: black;
+            color: white;
+          }
+        }
+        img {
+          width: 100%;
+          height: auto;
+        }
+        .divc {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+    #load{
+      width: 130px;
+      height: 50px;
+      background-color: #E7AB3C;
+      color: white;
+      border: none;
+      &:hover {
+        background-color: black;
+        color: white;
+      }
+      margin: 3%;
+  }
+  
+  
+  
+
+
+
+//BASKET//
+
+#productz {
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    width: 100%;
+    height: auto;
+    font-weight: 600;
+    color: rgb(157, 157, 157);
+    flex-wrap: wrap;
+  
+    .divz {
+      width: 300px;
+      img {
+        width: 100%;
+      }
+      .divc {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+      button {
+          width: 130px;
+          height: 50px;
+          background-color: #E7AB3C;
+          color: white;
+          border: none;
+          &:hover {
+            background-color: black;
+            color: white;
+          }
+          margin: 3%;
+      }
+    }
+  }
+  
+  
+
+  //FORM//
+
+  #form1 {
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    gap: 10px;
+  }
